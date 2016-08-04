@@ -1,0 +1,1 @@
+getPasswordAuthByUserName=select * from auth_password where login_name=? and thru_date is null order by from_date
