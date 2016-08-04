@@ -8,6 +8,7 @@ import com.riguz.commons.auth.AuthenticationException;
 import com.riguz.commons.auth.Authenticator;
 import com.riguz.commons.auth.TokenEncryptor;
 import com.riguz.commons.auth.User;
+import com.riguz.commons.auth.UserContext;
 import com.riguz.commons.auth.impl.CookieTokenEncryptor;
 import com.riguz.jfork.app.auth.PasswordAuthenticator;
 import com.riguz.jfork.app.config.Constants;
@@ -19,6 +20,11 @@ public class RootController extends Controller{
 	private static Logger logger = LoggerFactory.getLogger(RootController.class.getName());
 
 	public void index(){
+		String cookie = this.getCookie(Constants.TOKEN_COOKIE_NAME);
+		String jsession = this.getCookie("JSESSIONID");
+		this.setAttr("token", cookie);
+		this.setAttr("jsessionid", jsession);
+		this.setAttr("user", UserContext.getCurrentUser());
 		this.render("index.ftl");
 	}
 

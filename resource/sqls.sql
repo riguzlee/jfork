@@ -1,1 +1,2 @@
-getPasswordAuthByUserName=select * from auth_password where login_name=? and thru_date is null order by from_date
+getPasswordAuthByUserName=select * from auth_password where login_name=? and (from_date is null or from_date <= now()) and (thru_date is null or thru_date > now()) order by from_date
+getPasswordAuthByUserId=select * from auth_password where user_id=? and (from_date is null or from_date <= now()) and (thru_date is null or thru_date > now()) order by from_date

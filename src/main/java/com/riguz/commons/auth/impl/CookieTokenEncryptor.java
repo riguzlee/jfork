@@ -22,10 +22,13 @@ public class CookieTokenEncryptor implements TokenEncryptor{
 		this.expires = expires;
 	}
 
+	private String hash(User user){
+		return EncryptUtil.encrypt(ENCRYPT_METHOD, this.rand + user.getAuthHash());
+	}
 	@Override
 	public String encrypt(User user) {
 		long thruTime = new Date().getTime() + this.expires;
-		String hash = EncryptUtil.encrypt(ENCRYPT_METHOD, this.rand + user.getAuthHash());
+		String hash = this.hash(user);
 		return String.format("%s%s%d%s%s", user.getUserId(), SPLIT_STRING, thruTime, SPLIT_STRING, hash);
 	}
 
@@ -38,8 +41,8 @@ public class CookieTokenEncryptor implements TokenEncryptor{
 		User user = this.userService.getUser(arr[0]);
 		if(user == null)
 			throw new AuthenticationException("User not found:" + arr[0]);
-		String expected = this.encrypt(user);
-		if(!expected.equals(token))
+		String expected = this.hash(user);
+		if(!expected.equals(arr[2]))
 			throw new AuthenticationException("Invalid token");
 		return user;
 	}

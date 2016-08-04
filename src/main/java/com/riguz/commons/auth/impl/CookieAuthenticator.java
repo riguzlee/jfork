@@ -10,14 +10,22 @@ import org.slf4j.LoggerFactory;
 import com.google.common.base.Strings;
 import com.riguz.commons.auth.AuthenticationException;
 import com.riguz.commons.auth.Authenticator;
+import com.riguz.commons.auth.TokenEncryptor;
 import com.riguz.commons.auth.User;
+import com.riguz.jfork.app.config.Constants;
 
 public class CookieAuthenticator implements Authenticator{
 	private static Logger logger = LoggerFactory.getLogger(CookieAuthenticator.class.getName());
+	protected String tokenCookieName;
+
+	protected TokenEncryptor tokenEncryptor = new CookieTokenEncryptor(Constants.ENCRYPT_RAND, Constants.EXPIRES_TIME);
+	public CookieAuthenticator(String tokenCookieName) {
+		this.tokenCookieName = tokenCookieName;
+	}
 
 	@Override
 	public User authenticate(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {
-		String cookie = this.getCookieByName(request, "token");
+		String cookie = this.getCookieByName(request, this.tokenCookieName);
         if (Strings.isNullOrEmpty(cookie)){
         	logger.warn("Empty token:sessionid={}", request.getRequestedSessionId());
             return null;
@@ -35,6 +43,11 @@ public class CookieAuthenticator implements Authenticator{
 	}
 
 	protected User getUserByCookie(String cookie){
-		return new User();
+		try {
+			return this.tokenEncryptor.auth(cookie);
+		} catch (AuthenticationException e) {
+			e.printStackTrace();
+		}
+		return null;
 	}
 }

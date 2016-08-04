@@ -22,7 +22,8 @@ public class GlobalFilter implements Filter{
 
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
-		this.authenticators = new Authenticator[]{new CookieAuthenticator()};
+		this.authenticators = new Authenticator[]{
+				new CookieAuthenticator(filterConfig.getInitParameter("cookieName"))};
 	}
 
 	@Override
