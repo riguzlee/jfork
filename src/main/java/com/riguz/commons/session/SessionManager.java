@@ -4,6 +4,10 @@ public abstract class SessionManager {
 	protected int expires;
 	protected SessionIdGenerator idGenerator;
 
+	public void init(){
+
+	}
+
 	public abstract Session createSession();
 
 	public abstract void save(Session session);

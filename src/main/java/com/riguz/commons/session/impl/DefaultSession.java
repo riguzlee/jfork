@@ -3,12 +3,13 @@ package com.riguz.commons.session.impl;
 import java.io.Serializable;
 import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 
 import com.riguz.commons.session.Session;
 
 public class DefaultSession extends Session implements Serializable{
 	private static final long serialVersionUID = 54239986539376239L;
-	protected Map<String, Object> attributes;
+	protected Map<String, Object> attributes = new ConcurrentHashMap<String, Object>();
 
 	public DefaultSession(String sessionId, int maxInactiveInterval){
 		this.sessionId = sessionId;

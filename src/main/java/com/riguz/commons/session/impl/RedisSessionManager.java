@@ -8,23 +8,34 @@ import com.riguz.commons.session.SessionIdGenerator;
 import com.riguz.commons.session.SessionManager;
 
 public class RedisSessionManager extends SessionManager{
-	protected Cache cache;
+	protected Cache cache = null;
+	protected String cacheName = null;
 
 	public RedisSessionManager(){
-		this.cache = Redis.use();
 		this.expires = 1800; // 30m
 		this.idGenerator = new HashSessionIdGenerator();
 	}
 
 	public RedisSessionManager(String cacheName){
-		this.cache = Redis.use(cacheName);
+		this.cacheName = cacheName;
 		this.expires = 1800; // 30m
+		this.idGenerator = new HashSessionIdGenerator();
 	}
 
 	public RedisSessionManager(String cacheName, int expires, SessionIdGenerator idGenerator){
-		this.cache = Redis.use(cacheName);
+		this.cacheName = cacheName;
 		this.expires = expires;
 		this.idGenerator = idGenerator;
+	}
+
+	@Override
+	public void init(){
+		//redis cache is created by RedisPlugin.start;
+		//so it's required to call this function after this plugin started
+		if(this.cacheName != null)
+			this.cache = Redis.use(this.cacheName);
+		else
+			this.cache = Redis.use();
 	}
 
 	@Override

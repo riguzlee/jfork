@@ -1,5 +1,7 @@
 package com.riguz.jfork.app.config;
 
+import java.util.Date;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,12 +17,18 @@ import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
 import com.jfinal.plugin.activerecord.CaseInsensitiveContainerFactory;
 import com.jfinal.plugin.activerecord.Sqls;
 import com.jfinal.plugin.druid.DruidPlugin;
+import com.jfinal.plugin.redis.Cache;
+import com.jfinal.plugin.redis.Redis;
+import com.jfinal.plugin.redis.RedisPlugin;
 import com.jfinal.render.ViewType;
+import com.riguz.commons.session.SessionPlugin;
+import com.riguz.commons.session.impl.RedisSessionManager;
 import com.riguz.jfork.app.controller.RootController;
 import com.riguz.jfork.model._MappingKit;
 
 public class AppConfig extends JFinalConfig {
     private static Logger logger = LoggerFactory.getLogger(AppConfig.class.getName());
+    public static final String SESSION_CACHE_NAME = "redis_cache";
 
     @Override
     public void configConstant(Constants me) {
@@ -48,12 +56,23 @@ public class AppConfig extends JFinalConfig {
         me.add("/", RootController.class);
     }
 
-
+    private RedisSessionManager sessionManager;
     @Override
     public void configPlugin(Plugins me) {
+    	this.loadPropertyFile("app.properties");
         // 生成两个数据源
         ActiveRecordPlugin coreRecordPlugin = this.createDruidPlugin(me, "jfork");
         _MappingKit.mapping(coreRecordPlugin);
+
+        String redisHost = this.getProperty("redis.host", "localhost");
+        int redisPort = this.getPropertyToInt("redis.port", 6379);
+
+
+        RedisPlugin redisPlugin = new RedisPlugin(SESSION_CACHE_NAME, redisHost, redisPort);
+        this.sessionManager = new RedisSessionManager(SESSION_CACHE_NAME);
+        SessionPlugin sessionPlugin = new SessionPlugin(this.sessionManager);
+        me.add(redisPlugin);
+        me.add(sessionPlugin);
     }
 
     @Override
@@ -92,6 +111,15 @@ public class AppConfig extends JFinalConfig {
 	public void afterJFinalStart() {
 		logger.info("Loadding sqls.sql");
 		Sqls.load("sqls.sql");
+
+		Cache cache = Redis.use();
+		String redisStatus = cache.set("jfork_startuptime", new Date().toString());
+		logger.info("Redis status:{}", redisStatus);
+		if(!"OK".equals(redisStatus)){
+			throw new RuntimeException("Redis not ready");
+		}
+
+		this.sessionManager.init();
 	}
 
 }

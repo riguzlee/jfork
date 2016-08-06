@@ -40,6 +40,8 @@
 		<uuid>3.1.4</uuid>
 		<jbcrypt>0.3m</jbcrypt>
 		<jedis>2.9.0</jedis>
+		<fst>2.47</fst>
+		<jackson>2.8.1</jackson>
 	</properties>
 
 	<dependencies>
@@ -119,6 +121,17 @@
 			<artifactId>jedis</artifactId>
 			<version>${jedis}</version>
 		</dependency>
+		<dependency>
+			<groupId>de.ruedigermoeller</groupId>
+			<artifactId>fst</artifactId>
+			<version>${fst}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>${jackson}</version>
+		</dependency>
+
 
 		<!-- Security -->
 		<dependency>

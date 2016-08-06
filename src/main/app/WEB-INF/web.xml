@@ -7,10 +7,6 @@
 	<filter>
         <filter-name>global</filter-name>
         <filter-class> com.riguz.commons.auth.GlobalFilter</filter-class>
-        <init-param>
-            <param-name>cookieName</param-name>
-            <param-value>JFROK_SESSION_ID</param-value>
-        </init-param>
     </filter>
     <filter-mapping>
         <filter-name>global</filter-name>
