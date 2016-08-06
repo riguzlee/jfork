@@ -5,6 +5,8 @@ import org.mindrot.jbcrypt.BCrypt;
 import com.riguz.commons.util.EncryptUtil;
 import com.riguz.jfork.app.config.Constants;
 
+import redis.clients.jedis.Jedis;
+
 /**
  * Hello world!
  *
@@ -16,5 +18,10 @@ public class App{
 		String k1 = Constants.ENCRYPT_RAND + "$2a$12$hj8IsPnfJo5BzxxUGYYMIe.kCJpyaobmIuhd6p9d7FTwgHM/6waZq";
 		String k2 = EncryptUtil.encrypt("sha-512", k1);
 		System.out.println(k2);
+
+		Jedis jedis = new Jedis("localhost");
+		jedis.set("foo", "12345");
+		String value = jedis.get("name");
+		System.out.println("foo:" + value);
 	}
 }
