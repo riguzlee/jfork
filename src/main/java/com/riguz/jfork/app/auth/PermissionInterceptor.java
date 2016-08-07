@@ -26,6 +26,11 @@ public class PermissionInterceptor implements Interceptor{
 		this.config = PropKit.use(properties);
 	}
 
+	private String getLoginUrl(){
+		String url = this.config.get("loginUrl", "login");
+		return url;
+	}
+
 	private Set<String> joinPermission(String ...permissions){
 		Set<String> permissionList = new HashSet<String>();
 		for(String p:permissions){
@@ -42,12 +47,15 @@ public class PermissionInterceptor implements Interceptor{
 		String controllerPermission = this.config.get(controllerKey);
 		String rootPermission = this.config.get("/");
 		if(!Strings.isNullOrEmpty(actionPermission)){
+			Set<String> permissionList = new HashSet<String>();
 			//if the permission starts with @, then donot check the controller or root permission
-			if(actionPermission.startsWith("@")){
-				Set<String> permissionList = new HashSet<String>();
-				permissionList.add(actionPermission.split("@")[0]);
+			if(actionPermission.startsWith("@") && actionPermission.length() > 1){
+				permissionList.add(actionPermission.substring(1));
 				return permissionList;
 			}
+			//anonymous
+			if(actionPermission.equals("*"))
+				return permissionList;
 		}
 
 		//otherwise return a list of all permissions
@@ -57,8 +65,13 @@ public class PermissionInterceptor implements Interceptor{
 	private void handle403(Controller controller){
 		if(ServletKit.isAjax(controller.getRequest()))
 			ResponseKit.error(controller, "Permission denied.");
-		else
+		else{
+			if(!UserContext.isUserAuthed()){
+				controller.redirect(this.getLoginUrl());
+				return;
+			}
 			controller.renderError(403);
+		}
 	}
 
 	@Override

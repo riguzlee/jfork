@@ -30,6 +30,10 @@ public class RootController extends Controller{
 		this.render("index.ftl");
 	}
 
+	public void loginView(){
+		this.render("login.ftl");
+	}
+
 	public void doLogin(){
 		String error = "Login failed:\n";
 		try {
