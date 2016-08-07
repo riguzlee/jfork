@@ -14,6 +14,7 @@ public abstract class SessionManager {
 	public abstract void remove(String sessionId);
 	public abstract Session get(String sessionId);
 	public abstract void update(Session session);
+	public abstract void saveOrUpdate(Session session);
 
 	public void setExpires(int seconds) {
 		this.expires = seconds;

@@ -1,5 +1,7 @@
 package com.riguz.commons.session;
 
+import com.riguz.commons.auth.UserContext;
+
 public class SessionKit {
 	private static SessionManager sessionManager;
 
@@ -19,8 +21,8 @@ public class SessionKit {
         return sessionManager.createSession();
     }
 
-    public static void addSession(Session session) {
-        sessionManager.save(session);
+    public static void save(Session session) {
+        sessionManager.saveOrUpdate(session);
     }
 
     public static void removeSession(String sessionId) {
@@ -29,5 +31,17 @@ public class SessionKit {
 
     public static long getSessionTimeout() {
         return sessionManager.getExpires();
+    }
+
+    public static void set(String key, Object value){
+    	String sessionId = UserContext.getSessionId();
+    	Session session = getSession(sessionId);
+    	if(session == null){
+    		session = sessionManager.createSession();
+    		session.setSessionId(sessionId);
+    		sessionManager.save(session);
+    	}
+    	session.put(key, value);
+    	save(session);
     }
 }

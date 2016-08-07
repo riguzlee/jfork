@@ -10,6 +10,7 @@ import com.riguz.commons.auth.TokenEncryptor;
 import com.riguz.commons.auth.User;
 import com.riguz.commons.auth.UserContext;
 import com.riguz.commons.auth.impl.CookieTokenEncryptor;
+import com.riguz.commons.session.SessionKit;
 import com.riguz.jfork.app.auth.PasswordAuthenticator;
 import com.riguz.jfork.app.config.Constants;
 
@@ -42,6 +43,7 @@ public class RootController extends Controller{
 				String token = this.tokenEncryptor.encrypt(user);
 				logger.info("Login success, token:{}", token);
 				this.setCookie(Constants.TOKEN_COOKIE_NAME, token, (int)Constants.EXPIRES_TIME/1000);
+				SessionKit.set("loginUser", user);
 				this.renderJson("Login success:" + user.getUserId());
 				return;
 			}

@@ -40,7 +40,9 @@ public class GlobalFilter implements Filter{
 
 		Authenticator sessionAuthenticator = new SessionAuthenticator(this.sessionKey, userKey);
 		Authenticator cookieAuthenticator =  new CookieAuthenticator(tokenKey);
-		this.authenticators = new Authenticator[]{sessionAuthenticator, cookieAuthenticator};
+		this.authenticators = new Authenticator[]{sessionAuthenticator
+				//, cookieAuthenticator
+				};
 	}
 
 	@Override
@@ -51,7 +53,7 @@ public class GlobalFilter implements Filter{
 			sessionId = this.createSession((HttpServletRequest)request, (HttpServletResponse)response);
 		User user = this.tryGetAuthenticatedUser(request, response);
 		logger.debug("auth:user={}", user);
-		try (UserContext context = new UserContext(user)) {
+		try (UserContext context = new UserContext(sessionId, user)) {
 			chain.doFilter(request, response);
 		}
 	}
@@ -59,7 +61,7 @@ public class GlobalFilter implements Filter{
 	private String createSession(HttpServletRequest request, HttpServletResponse response){
 		Session session = SessionKit.getNewSession();
 		logger.info("Creating new session:[{}]", session.getSessionId());
-		SessionKit.addSession(session);
+		SessionKit.save(session);
 		Cookie cookie = new Cookie(this.sessionKey, session.getSessionId());
 		cookie.setMaxAge(3600);
 		cookie.setPath("/");

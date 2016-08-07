@@ -87,4 +87,9 @@ public class RedisSessionManager extends SessionManager{
 		if(session == null || Strings.isNullOrEmpty(session.getSessionId()))
 			throw new IllegalArgumentException("Session is null or id lost");
 	}
+
+	@Override
+	public void saveOrUpdate(Session session) {
+		this.update(session);
+	}
 }

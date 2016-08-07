@@ -48,7 +48,8 @@ public class DefaultSession extends Session implements Serializable{
 
 	@Override
 	public boolean isInvalidated() {
-		return this.lastAccessTime + this.maxInactiveInterval < System.currentTimeMillis();
+		// this.maxInactiveInterval (second)
+		return this.lastAccessTime + this.maxInactiveInterval * 1000 < System.currentTimeMillis();
 	}
 
 }

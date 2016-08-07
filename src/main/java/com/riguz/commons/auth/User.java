@@ -1,6 +1,8 @@
 package com.riguz.commons.auth;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable{
 	String userId;
 	String authHash;
 	String cookie;
@@ -28,6 +30,7 @@ public class User {
 	public String getAuthHash() {
 		return this.authHash;
 	}
+
 	public void setAuthHash(String authHash) {
 		this.authHash = authHash;
 	}
