@@ -263,3 +263,446 @@
 2016-08-06 16:30:48.045 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:d2b89d8ff2d731e650875b7f15ec30b4161110ec03ad10d084877f456aafa3b2
 2016-08-06 16:30:48.046 [qtp1722023916-23] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
 2016-08-06 16:30:48.046 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 17:08:30.378 [main] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-06 17:08:30.453 [main] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-06 17:08:33.478 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:d2b89d8ff2d731e650875b7f15ec30b4161110ec03ad10d084877f456aafa3b2
+2016-08-06 17:08:33.478 [qtp1722023916-23] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 17:08:33.479 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 17:08:40.408 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:d2b89d8ff2d731e650875b7f15ec30b4161110ec03ad10d084877f456aafa3b2
+2016-08-06 17:08:40.409 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 17:08:40.409 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 17:08:50.141 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:d2b89d8ff2d731e650875b7f15ec30b4161110ec03ad10d084877f456aafa3b2
+2016-08-06 17:08:50.141 [qtp1722023916-23] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 17:08:50.142 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 17:08:50.500 [qtp1722023916-23] INFO  c.r.j.app.controller.RootController - Login success, token:28617376-5a59-11e6-8b77-86f30ca893d3:1470481010499:1d9bf0253c77895d1f5b87eadc11c2a39823461cf9180cb367a47898df402be26f3a70bbb6c6eae0eaf1ca5b9acb8979ab00a3a9e96c4d3d79bd666cd3a40193
+2016-08-06 17:08:53.462 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:d2b89d8ff2d731e650875b7f15ec30b4161110ec03ad10d084877f456aafa3b2
+2016-08-06 17:08:53.463 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 17:08:53.463 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 17:08:57.992 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:d2b89d8ff2d731e650875b7f15ec30b4161110ec03ad10d084877f456aafa3b2
+2016-08-06 17:08:57.993 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 17:08:57.993 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 17:13:08.155 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-06 17:13:08.205 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-06 17:13:17.794 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:d2b89d8ff2d731e650875b7f15ec30b4161110ec03ad10d084877f456aafa3b2
+2016-08-06 17:13:17.796 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 17:13:17.796 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 17:13:24.742 [qtp1722023916-24] INFO  com.riguz.commons.auth.GlobalFilter - Creating new session:[b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74]
+2016-08-06 17:13:24.745 [qtp1722023916-24] WARN  c.r.c.auth.impl.SessionAuthenticator - Empty session id:check param [PHPSESSID]
+2016-08-06 17:13:24.745 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 17:13:24.745 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 17:13:28.988 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:13:28.994 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 17:13:28.994 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 17:13:36.054 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:13:36.055 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 17:13:36.055 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 17:13:36.436 [qtp1722023916-25] INFO  c.r.j.app.controller.RootController - Login success, token:28617376-5a59-11e6-8b77-86f30ca893d3:1470481296436:1d9bf0253c77895d1f5b87eadc11c2a39823461cf9180cb367a47898df402be26f3a70bbb6c6eae0eaf1ca5b9acb8979ab00a3a9e96c4d3d79bd666cd3a40193
+2016-08-06 17:13:39.070 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:13:39.072 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:15:10.224 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:15:10.231 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:15:18.283 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:15:18.284 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:15:19.162 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:15:19.164 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:15:19.928 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:15:19.930 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:15:49.867 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:15:49.869 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:23:29.345 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-06 17:23:29.400 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-06 17:23:32.182 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:23:32.204 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:23:57.585 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:23:57.587 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:24:51.453 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:24:51.455 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:27:32.738 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:27:32.744 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:28:53.362 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:28:53.364 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:28:53.374 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:28:53.375 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:29:04.735 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:29:04.736 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:31:21.682 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:31:21.685 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:31:21.698 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:31:21.699 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:31:24.138 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:31:24.139 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:31:24.150 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:31:24.151 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:31:44.283 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:31:44.284 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:31:44.298 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:31:44.299 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:32:14.116 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:32:14.118 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:32:14.138 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:32:14.141 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:32:37.188 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:32:37.191 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:32:37.203 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:32:37.206 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:32:52.409 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:32:52.411 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:32:52.422 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:32:52.424 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:32:53.112 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:32:53.113 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:32:53.125 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:32:53.127 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:33:14.696 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:33:14.700 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:33:14.730 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:33:14.732 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:33:15.899 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:33:15.901 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:33:15.919 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:33:15.921 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:35:05.945 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:35:05.948 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:35:05.961 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:35:05.963 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:35:06.744 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:35:06.746 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:35:06.758 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:35:06.761 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:35:07.305 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:35:07.306 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 17:35:07.315 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:b2cd98ea13e481bb540134730eec220aef2206646a07bff72399075ba258fc74
+2016-08-06 17:35:07.317 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 18:44:16.323 [qtp1722023916-22] INFO  com.riguz.commons.auth.GlobalFilter - Creating new session:[c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4]
+2016-08-06 18:44:16.326 [qtp1722023916-22] WARN  c.r.c.auth.impl.SessionAuthenticator - Empty session id:check param [PHPSESSID]
+2016-08-06 18:44:16.327 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 18:44:16.338 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 18:44:16.345 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 18:44:17.895 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 18:44:17.897 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 18:44:17.910 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 18:44:17.914 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 18:44:20.695 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 18:44:20.696 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 18:44:20.706 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 18:44:20.708 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 18:44:21.380 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 18:44:21.381 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 18:44:21.393 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 18:44:21.394 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 18:45:43.280 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 18:45:43.282 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 18:45:43.294 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 18:45:43.296 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 18:46:24.804 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 18:46:24.807 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 18:46:24.837 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 18:46:24.839 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 18:46:50.355 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 18:46:50.357 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 18:46:50.368 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 18:46:50.371 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 19:13:10.986 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 19:13:10.990 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 19:13:10.991 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 19:13:11.013 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 19:13:11.014 [qtp1722023916-23] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 19:13:11.014 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 19:13:30.543 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 19:13:30.544 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 19:13:30.544 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 19:13:30.906 [qtp1722023916-25] INFO  c.r.j.app.controller.RootController - Login success, token:28617376-5a59-11e6-8b77-86f30ca893d3:1470488490906:1d9bf0253c77895d1f5b87eadc11c2a39823461cf9180cb367a47898df402be26f3a70bbb6c6eae0eaf1ca5b9acb8979ab00a3a9e96c4d3d79bd666cd3a40193
+2016-08-06 19:13:33.401 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 19:13:33.403 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 19:13:33.415 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 19:13:33.417 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 19:14:58.994 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 19:14:58.995 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 19:14:59.007 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 19:14:59.008 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 19:15:18.987 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 19:15:18.989 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 19:15:19.012 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 19:15:19.014 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 19:15:28.241 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 19:15:28.243 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 19:15:28.254 [qtp1722023916-36] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 19:15:28.255 [qtp1722023916-36] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 19:15:41.383 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 19:15:41.385 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 19:15:41.399 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 19:15:41.400 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 19:16:17.443 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 19:16:17.444 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 19:16:17.454 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c402a49d88a8ffb95a7f37e829bcce69cd988c9c99a3e7bda1fc104779d4f7b4
+2016-08-06 19:16:17.456 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-06 21:02:05.484 [qtp1722023916-25] INFO  com.riguz.commons.auth.GlobalFilter - Creating new session:[931224cdc44e72ed3d40ec58c7f2c5d951059aaf9c9f81fea0c917d7f8929eee]
+2016-08-06 21:02:05.496 [qtp1722023916-25] WARN  c.r.c.auth.impl.SessionAuthenticator - Empty session id:check param [PHPSESSID]
+2016-08-06 21:02:05.497 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:02:05.497 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:02:05.508 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:931224cdc44e72ed3d40ec58c7f2c5d951059aaf9c9f81fea0c917d7f8929eee
+2016-08-06 21:02:05.513 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:02:05.513 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:02:16.585 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:931224cdc44e72ed3d40ec58c7f2c5d951059aaf9c9f81fea0c917d7f8929eee
+2016-08-06 21:02:16.586 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:02:16.586 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:02:16.590 [qtp1722023916-36] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:931224cdc44e72ed3d40ec58c7f2c5d951059aaf9c9f81fea0c917d7f8929eee
+2016-08-06 21:02:16.591 [qtp1722023916-36] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:02:16.591 [qtp1722023916-36] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:03:51.574 [qtp1722023916-24] INFO  com.riguz.commons.auth.GlobalFilter - Creating new session:[c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e]
+2016-08-06 21:03:51.575 [qtp1722023916-24] WARN  c.r.c.auth.impl.SessionAuthenticator - Empty session id:check param [PHPSESSID]
+2016-08-06 21:03:51.575 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:03:51.575 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:03:51.592 [qtp1722023916-36] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:03:51.593 [qtp1722023916-36] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:03:51.593 [qtp1722023916-36] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:03:52.982 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:03:52.983 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:03:52.983 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:03:52.997 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:03:52.998 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:03:52.998 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:04:00.718 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:04:00.719 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:04:00.719 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:04:00.734 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:04:00.734 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:04:00.734 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:11:25.876 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:11:25.878 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:11:25.878 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:11:25.890 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:11:25.891 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:11:25.891 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:11:26.554 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:11:26.555 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:11:26.555 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:11:26.570 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:11:26.570 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:11:26.571 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:12:45.853 [qtp1722023916-36] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:12:45.854 [qtp1722023916-36] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:12:45.854 [qtp1722023916-36] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:12:45.866 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:12:45.867 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:12:45.867 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:12:45.876 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:12:45.876 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:12:45.876 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:13:25.012 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:13:25.013 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:13:25.013 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:13:25.043 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:13:25.043 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:13:25.043 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:13:25.047 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:13:25.048 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:13:25.048 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:13:44.177 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:13:44.178 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:13:44.179 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:13:44.216 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:13:44.217 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:13:44.217 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:13:44.220 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:13:44.221 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:13:44.221 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:14:19.523 [qtp1722023916-36] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:14:19.523 [qtp1722023916-36] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:14:19.523 [qtp1722023916-36] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:14:19.540 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:14:19.540 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:14:19.540 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-06 21:14:19.543 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:c84aee25aaa8bef52e58f2f330bd41d91a9094a8767c8a762d45ffe367204b9e
+2016-08-06 21:14:19.544 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-06 21:14:19.544 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 08:51:59.352 [main] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 08:51:59.428 [main] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 08:52:05.463 [qtp1722023916-25] INFO  com.riguz.commons.auth.GlobalFilter - Creating new session:[18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64]
+2016-08-07 08:52:05.465 [qtp1722023916-25] WARN  c.r.c.auth.impl.SessionAuthenticator - Empty session id:check param [PHPSESSID]
+2016-08-07 08:52:05.465 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 08:52:05.465 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 08:52:05.468 [qtp1722023916-25] DEBUG c.r.j.app.auth.PermissionInterceptor - =>/
+2016-08-07 08:52:05.583 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 08:52:05.584 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 08:52:05.590 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 08:52:05.590 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 08:52:05.590 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 08:52:05.590 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 08:52:05.603 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 08:52:05.604 [qtp1722023916-23] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 08:52:05.604 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 08:52:37.909 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 08:52:37.910 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 08:52:37.910 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 08:52:37.910 [qtp1722023916-25] DEBUG c.r.j.app.auth.PermissionInterceptor - =>/
+2016-08-07 08:52:37.932 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 08:52:37.933 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 08:52:37.933 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 08:52:37.935 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 08:52:37.936 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 08:52:37.936 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 08:52:37.946 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 08:52:37.947 [qtp1722023916-23] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 08:52:37.947 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 08:53:10.703 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 08:53:10.703 [qtp1722023916-23] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 08:53:10.703 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 08:53:10.704 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - =>/test1
+2016-08-07 08:55:11.279 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 08:55:11.328 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 08:55:20.181 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 08:55:20.182 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 08:55:20.182 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 08:55:20.186 [qtp1722023916-25] DEBUG c.r.j.app.auth.PermissionInterceptor - =>/, /
+2016-08-07 08:55:20.264 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 08:55:20.265 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 08:55:20.265 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 08:55:20.268 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 08:55:20.268 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 08:55:20.269 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 08:55:20.276 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 08:55:20.276 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 08:55:20.276 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 08:55:26.909 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 08:55:26.910 [qtp1722023916-23] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 08:55:26.910 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 08:55:26.910 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - =>/test1, /
+2016-08-07 09:19:40.853 [main] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:19:40.926 [main] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:19:46.729 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 09:19:46.730 [qtp1722023916-23] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:19:46.730 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:19:46.732 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission[ADMIN]
+2016-08-07 09:20:53.142 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 09:20:53.143 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:20:53.143 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:20:53.143 [qtp1722023916-22] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission[LOGIN_USERS]
+2016-08-07 09:20:53.235 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 09:20:53.236 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:20:53.236 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:20:53.237 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 09:20:53.238 [qtp1722023916-23] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:20:53.238 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:20:53.244 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 09:20:53.245 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:20:53.245 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:24:38.850 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:24:38.908 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:31:19.943 [main] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:31:20.015 [main] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:31:22.709 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 09:31:22.709 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:31:22.710 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:31:22.711 [qtp1722023916-24] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission[[LOGIN_USERS]]
+2016-08-07 09:31:22.804 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 09:31:22.805 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:31:22.805 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:31:22.808 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 09:31:22.808 [qtp1722023916-23] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:31:22.808 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:31:22.821 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 09:31:22.822 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:31:22.822 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:31:44.073 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 09:31:44.074 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:31:44.074 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:31:44.074 [qtp1722023916-25] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission[[LOGIN_USERS, ADMIN]]
+2016-08-07 09:38:03.999 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:38:04.047 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:38:12.184 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 09:38:12.186 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:38:12.186 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:38:12.191 [qtp1722023916-22] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission [LOGIN_USERS, ADMIN]
+2016-08-07 09:39:19.742 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:39:19.793 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:39:27.616 [main] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:39:27.688 [main] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:39:32.022 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:18ef7857e6dc6397d6a0b0074bf4c8d41477b179d0f7e91d3e57e20eff93eb64
+2016-08-07 09:39:32.022 [qtp1722023916-23] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:39:32.022 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:39:32.024 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission [LOGIN_USERS, ADMIN]
+2016-08-07 09:39:32.024 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - No permission:LOGIN_USERS, user null
+2016-08-07 09:39:32.024 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - No permission:ADMIN, user null
+2016-08-07 09:40:48.471 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:40:48.518 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:40:53.463 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:40:53.509 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:41:08.616 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:41:08.663 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:41:33.879 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:41:33.929 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:41:48.985 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:41:49.042 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:42:24.335 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:42:24.385 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:44:10.410 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:44:10.455 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:50:49.415 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:50:49.459 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:50:54.471 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:50:54.517 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:50:59.462 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:50:59.506 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:51:19.681 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:51:19.727 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:52:30.340 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:52:30.389 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:52:32.488 [qtp1722023916-24] INFO  com.riguz.commons.auth.GlobalFilter - Creating new session:[055b8f00396b4227667e1dbaede8d57a54384d8c8a6a58fd91e1efe35f527d23]
+2016-08-07 09:52:32.490 [qtp1722023916-24] WARN  c.r.c.auth.impl.SessionAuthenticator - Empty session id:check param [PHPSESSID]
+2016-08-07 09:52:32.491 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:52:32.491 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:52:32.493 [qtp1722023916-24] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission [LOGIN_USERS, ADMIN]
+2016-08-07 09:52:32.494 [qtp1722023916-24] DEBUG c.r.j.app.auth.PermissionInterceptor - No permission:LOGIN_USERS, user null
+2016-08-07 09:52:32.494 [qtp1722023916-24] DEBUG c.r.j.app.auth.PermissionInterceptor - No permission:ADMIN, user null
+2016-08-07 09:55:06.939 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:55:06.984 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:55:09.563 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:055b8f00396b4227667e1dbaede8d57a54384d8c8a6a58fd91e1efe35f527d23
+2016-08-07 09:55:09.572 [qtp1722023916-23] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:55:09.572 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:55:09.575 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission [LOGIN_USERS, ADMIN]
+2016-08-07 09:55:09.575 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - No permission:LOGIN_USERS, user null
+2016-08-07 09:55:09.575 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - No permission:ADMIN, user null
+2016-08-07 09:55:42.269 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:55:42.312 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:55:44.906 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:055b8f00396b4227667e1dbaede8d57a54384d8c8a6a58fd91e1efe35f527d23
+2016-08-07 09:55:44.907 [qtp1722023916-23] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:55:44.907 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:55:44.911 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission [LOGIN_USERS, ADMIN]
+2016-08-07 09:55:44.911 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - No permission:LOGIN_USERS, user null
+2016-08-07 09:55:44.911 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - No permission:ADMIN, user null
+2016-08-07 09:56:07.530 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Loadding sqls.sql
+2016-08-07 09:56:07.576 [JFinal-Scanner] INFO  com.riguz.jfork.app.config.AppConfig - Redis status:OK
+2016-08-07 09:56:09.859 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:055b8f00396b4227667e1dbaede8d57a54384d8c8a6a58fd91e1efe35f527d23
+2016-08-07 09:56:09.861 [qtp1722023916-23] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:56:09.861 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:56:09.865 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission [LOGIN_USERS, ADMIN]
+2016-08-07 09:56:09.865 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - No permission:LOGIN_USERS, user null
+2016-08-07 09:56:09.865 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - No permission:ADMIN, user null
+2016-08-07 09:56:24.052 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:055b8f00396b4227667e1dbaede8d57a54384d8c8a6a58fd91e1efe35f527d23
+2016-08-07 09:56:24.052 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:56:24.053 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:56:24.053 [qtp1722023916-22] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission [LOGIN_USERS, ADMIN]
+2016-08-07 09:56:24.053 [qtp1722023916-22] DEBUG c.r.j.app.auth.PermissionInterceptor - No permission:LOGIN_USERS, user null
+2016-08-07 09:56:24.053 [qtp1722023916-22] DEBUG c.r.j.app.auth.PermissionInterceptor - No permission:ADMIN, user null
+2016-08-07 09:56:24.080 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:055b8f00396b4227667e1dbaede8d57a54384d8c8a6a58fd91e1efe35f527d23
+2016-08-07 09:56:24.081 [qtp1722023916-23] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:56:24.081 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:56:24.083 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:055b8f00396b4227667e1dbaede8d57a54384d8c8a6a58fd91e1efe35f527d23
+2016-08-07 09:56:24.084 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:56:24.084 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:56:43.912 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:055b8f00396b4227667e1dbaede8d57a54384d8c8a6a58fd91e1efe35f527d23
+2016-08-07 09:56:43.912 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:56:43.913 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:56:43.913 [qtp1722023916-24] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission [LOGIN_USERS, ADMIN]
+2016-08-07 09:56:43.913 [qtp1722023916-24] DEBUG c.r.j.app.auth.PermissionInterceptor - No permission:LOGIN_USERS, user null
+2016-08-07 09:56:43.913 [qtp1722023916-24] DEBUG c.r.j.app.auth.PermissionInterceptor - No permission:ADMIN, user null
+2016-08-07 09:56:43.934 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:055b8f00396b4227667e1dbaede8d57a54384d8c8a6a58fd91e1efe35f527d23
+2016-08-07 09:56:43.934 [qtp1722023916-25] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:56:43.934 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:56:43.936 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:055b8f00396b4227667e1dbaede8d57a54384d8c8a6a58fd91e1efe35f527d23
+2016-08-07 09:56:43.937 [qtp1722023916-22] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:56:43.937 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null
+2016-08-07 09:56:43.945 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:055b8f00396b4227667e1dbaede8d57a54384d8c8a6a58fd91e1efe35f527d23
+2016-08-07 09:56:43.946 [qtp1722023916-24] WARN  c.r.c.auth.impl.CookieAuthenticator - Empty token:sessionid=null
+2016-08-07 09:56:43.946 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=null

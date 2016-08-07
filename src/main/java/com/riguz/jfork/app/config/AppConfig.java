@@ -23,6 +23,7 @@ import com.jfinal.plugin.redis.RedisPlugin;
 import com.jfinal.render.ViewType;
 import com.riguz.commons.session.SessionPlugin;
 import com.riguz.commons.session.impl.RedisSessionManager;
+import com.riguz.jfork.app.auth.PermissionInterceptor;
 import com.riguz.jfork.app.controller.RootController;
 import com.riguz.jfork.model._MappingKit;
 
@@ -38,10 +39,10 @@ public class AppConfig extends JFinalConfig {
         me.setEncoding("UTF-8");
 
         // 配置错误页面
-        me.setError404View("/html/error/404.html");
-        me.setError401View("/html/error/401.html");
-        me.setError403View("/html/error/403.html");
-        me.setError500View("/html/error/500.html");
+        me.setError404View("error/404.ftl");
+        me.setError401View("error/401.ftl");
+        me.setError403View("error/403.ftl");
+        me.setError500View("error/500.ftl");
 
         // 配置Beetl视图渲染引擎
         me.setBaseViewPath("/WEB-INF/template");
@@ -77,7 +78,7 @@ public class AppConfig extends JFinalConfig {
 
     @Override
     public void configInterceptor(Interceptors me) {
-
+    	me.add(new PermissionInterceptor("permission.properties"));
     }
 
     @Override

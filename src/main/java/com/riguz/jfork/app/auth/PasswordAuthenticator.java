@@ -14,6 +14,7 @@ import com.riguz.commons.auth.UserService;
 public class PasswordAuthenticator implements Authenticator{
 	private static Logger logger = LoggerFactory.getLogger(PasswordAuthenticator.class.getName());
 	private UserService userService = new JdbcUserService();
+
 	@Override
 	public User authenticate(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException{
 		return this.userService.authUser(request);

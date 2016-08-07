@@ -21,4 +21,9 @@ public class ServletKit {
 			return value;
 		return request.getParameter(cookieName);
 	}
+
+	public static boolean isAjax(HttpServletRequest request){
+	    return  (request.getHeader("X-Requested-With") != null  &&
+	    		"XMLHttpRequest".equals( request.getHeader("X-Requested-With"))   ) ;
+	}
 }

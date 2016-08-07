@@ -22,8 +22,10 @@ public class RootController extends Controller{
 	public void index(){
 		String cookie = this.getCookie(Constants.TOKEN_COOKIE_NAME);
 		String jsession = this.getCookie("JSESSIONID");
+		String sessionid = this.getCookie("PHPSESSID");
 		this.setAttr("token", cookie);
 		this.setAttr("jsessionid", jsession);
+		this.setAttr("jforksessionid", sessionid);
 		this.setAttr("user", UserContext.getCurrentUser());
 		this.render("index.ftl");
 	}

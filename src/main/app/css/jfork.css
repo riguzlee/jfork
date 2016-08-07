@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+.debug{
+	font-size:small;
+	font-family:monospace;
+	color:blue;
+}
+
+.label{
+	width:100px;
+	color:red;
+}
+.debug-table th{
+	color:red;
+	text-align:right;
+}
+.error{
+	color:red;
+}

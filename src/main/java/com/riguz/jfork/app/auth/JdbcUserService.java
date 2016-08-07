@@ -1,7 +1,5 @@
 package com.riguz.jfork.app.auth;
 
-import java.util.Date;
-
 import javax.servlet.http.HttpServletRequest;
 
 import org.mindrot.jbcrypt.BCrypt;
@@ -18,7 +16,6 @@ public class JdbcUserService implements UserService{
 
 	@Override
 	public User getUser(String userId) {
-		Date now = new Date();
 		AuthPassword auth = AuthPassword.dao.findFirst(Sqls.get("getPasswordAuthByUserId"), userId);
 		if(auth == null)
 			return null;
