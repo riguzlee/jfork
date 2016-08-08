@@ -1257,3 +1257,136 @@
 2016-08-08 00:59:17.548 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
 2016-08-08 00:59:17.550 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
 2016-08-08 00:59:17.550 [qtp1722023916-25] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission [SYSTEM_LOGIN]
+2016-08-08 01:00:03.381 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:00:03.385 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:00:03.385 [qtp1722023916-24] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission [SYSTEM_LOGIN]
+2016-08-08 01:00:03.409 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:00:03.410 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:00:03.411 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:00:03.413 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:00:03.424 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:00:03.425 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:00:31.328 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:00:31.329 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:00:31.329 [qtp1722023916-22] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission []
+2016-08-08 01:01:14.355 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:01:14.356 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:01:14.356 [qtp1722023916-24] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission []
+2016-08-08 01:01:14.367 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:01:14.368 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:01:14.369 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:01:14.370 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:01:14.379 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:01:14.380 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:01:41.372 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:01:41.373 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:01:41.373 [qtp1722023916-25] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission []
+2016-08-08 01:01:41.384 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:01:41.384 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:01:41.385 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:01:41.386 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:01:41.392 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:01:41.393 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:01:48.288 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:01:48.291 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:01:48.292 [qtp1722023916-22] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission []
+2016-08-08 01:01:48.313 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:01:48.314 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:01:48.315 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:01:48.316 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:01:48.328 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:01:48.329 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:02:50.499 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:02:50.502 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:02:50.502 [qtp1722023916-24] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission []
+2016-08-08 01:02:50.529 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:02:50.531 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:02:50.532 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:02:50.533 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:02:50.544 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:02:50.545 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:03:03.935 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:03:03.938 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:03:03.938 [qtp1722023916-22] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission []
+2016-08-08 01:03:03.967 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:03:03.969 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:03:03.971 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:03:03.973 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:03:03.984 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:03:03.985 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:03:04.842 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:03:04.843 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:03:04.843 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission []
+2016-08-08 01:03:04.854 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:03:04.855 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:03:04.856 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:03:04.857 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:03:04.865 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:03:04.866 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:03:38.234 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:03:38.237 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:03:38.238 [qtp1722023916-25] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission []
+2016-08-08 01:03:38.265 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:03:38.267 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:03:38.271 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:03:38.272 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:03:38.284 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:03:38.285 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:03:58.915 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:03:58.918 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:03:58.919 [qtp1722023916-25] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission []
+2016-08-08 01:03:58.940 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:03:58.942 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:03:58.945 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:03:58.947 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:03:58.962 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:03:58.962 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:04:10.606 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:04:10.609 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:04:10.609 [qtp1722023916-25] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission []
+2016-08-08 01:04:10.632 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:04:10.634 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:04:10.635 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:04:10.636 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:04:10.647 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:04:10.648 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:04:26.348 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:04:26.348 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:04:26.348 [qtp1722023916-24] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission []
+2016-08-08 01:04:26.359 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:04:26.360 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:04:26.362 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:04:26.363 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:04:26.372 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:04:26.373 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:05:04.205 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:05:04.208 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:05:04.209 [qtp1722023916-22] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission []
+2016-08-08 01:05:04.240 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:05:04.242 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:05:04.244 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:05:04.246 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:05:49.060 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:05:49.062 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:05:49.063 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission []
+2016-08-08 01:05:49.084 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:05:49.085 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:05:49.087 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:05:49.088 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:07:24.770 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:07:24.776 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:07:24.776 [qtp1722023916-22] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission []
+2016-08-08 01:07:24.803 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:07:24.806 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:07:24.807 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:07:24.810 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:07:54.489 [qtp1722023916-25] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:07:54.491 [qtp1722023916-25] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:07:54.491 [qtp1722023916-25] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission []
+2016-08-08 01:07:54.510 [qtp1722023916-22] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:07:54.512 [qtp1722023916-22] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:07:54.514 [qtp1722023916-24] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:07:54.515 [qtp1722023916-24] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:08:08.222 [qtp1722023916-23] DEBUG c.r.c.auth.impl.SessionAuthenticator - Trying to get user from session:575456a91a252db7fea634a5a0142750ec0a7cf13a537052afed8f4dae0bda10
+2016-08-08 01:08:08.223 [qtp1722023916-23] DEBUG com.riguz.commons.auth.GlobalFilter - auth:user=<User:28617376-5a59-11e6-8b77-86f30ca893d3>
+2016-08-08 01:08:08.223 [qtp1722023916-23] DEBUG c.r.j.app.auth.PermissionInterceptor - =>Checking permission []

@@ -23,16 +23,6 @@
             </table>
         </div>
         <hr/>
-        <form action="doLogin" method="post">
-            <input type="text" name="user">
-            <input type="password" name="passwd">
-            <input type="submit" value="Login">
-        </form>
-        <br/>
-        <form action="doLogout" method="post">
-            <input type="submit" value="logout">
-        </post>
-        <hr/>
     </div>
 </#assign>
 <#include "public/layout.ftl"/> 

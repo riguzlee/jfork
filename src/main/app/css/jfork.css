@@ -1,5 +1,9 @@
 @CHARSET "UTF-8";
 
+body{
+	font-family:monospace;
+}
+
 .debug{
 	font-size:small;
 	font-family:monospace;
@@ -12,6 +16,10 @@
 }
 .debug-table th{
 	color:red;
+	text-align:right;
+}
+
+.login-table{
 	text-align:right;
 }
 .error{
